@@ -192,11 +192,11 @@ export default function ProjectDetailsPage() {
               <h2 className="text-lg font-semibold text-gray-900 mb-4">About the client</h2>
               <div className="space-y-3">
                 <div className="flex flex-wrap gap-4">
-                  <Badge variant="secondary" className="bg-green-50 text-green-700">
+                  <Badge variant="secondary" className="bg-blue-50 text-blue-700">
                     <CheckCircle className="h-3 w-3 mr-1" />
                     Payment method verified
                   </Badge>
-                  <Badge variant="secondary" className="bg-green-50 text-green-700">
+                  <Badge variant="secondary" className="bg-green-50 text-blue-700">
                     <CheckCircle className="h-3 w-3 mr-1" />
                     Phone number verified
                   </Badge>

@@ -1,17 +1,24 @@
-// Based on your Swagger DTOs
+// services/types/user.ts
 export interface RegisterDto {
   fullName: string;
   email: string;
   password: string;
-  phoneNumber: string;
-  bio?: string;
-  profilePictureUrl?: string;
-  role: string;
+  phoneNumber: string; // Make it required (remove the ?)
+  confirmPassword?: string;
 }
 
 export interface LoginDto {
   email: string;
   password: string;
+}
+
+export interface User {
+  id: number;
+  fullName: string;
+  email: string;
+  role: "Client" | "Freelancer" | "Admin";
+  profilePictureUrl: string | null;
+  phoneNumber?: string;
 }
 
 export interface PostProjectDto {

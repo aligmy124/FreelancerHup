@@ -332,7 +332,7 @@ export default function projectsClient({ data }: { data: ProjectData[] }) {
                         {item.title}
                       </CardTitle>
                       <div className="text-right whitespace-nowrap bg-green-50 px-3 py-1 rounded-lg">
-                        <div className="font-bold text-lg text-green-600">
+                        <div className="font-bold text-lg text-primary">
                           ${item.budget?.toLocaleString()}
                         </div>
                         <div className="text-xs text-muted-foreground">
