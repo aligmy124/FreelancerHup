@@ -25,7 +25,8 @@ import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useAuth } from '@/contexts/AuthContext';
 import { useEffect } from 'react';
-
+import Image from 'next/image';
+import logo from "@/assets/images/Hustlix.png";
 // Define proper types for navigation items
 interface NavItem {
   name: string;
@@ -208,7 +209,7 @@ export default function DashboardLayout({
       <aside className="w-64 border-r bg-card hidden md:flex flex-col fixed h-full">
         <div className="p-6 border-b">
           <Link href="/" className="font-bold text-xl text-primary tracking-tight">
-            FreelancerHup
+            <Image src={logo} alt="logo" width={120} height={120}/>
           </Link>
           <div className="flex items-center gap-2 mt-2">
             <span className={`text-xs px-2 py-0.5 rounded-full ${currentRoleConfig.color} font-medium`}>
@@ -313,7 +314,7 @@ export default function DashboardLayout({
         {/* Mobile Header */}
         <header className="md:hidden border-b bg-card p-4 flex justify-between items-center sticky top-0 z-10">
           <Link href="/" className="font-bold text-xl text-primary tracking-tight">
-            FreelancerHup
+            Hustlix
           </Link>
           <div className="flex items-center gap-2">
             <span className={`text-xs px-2 py-1 rounded-full ${currentRoleConfig.color} font-medium`}>

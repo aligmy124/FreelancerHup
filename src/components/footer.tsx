@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="font-bold text-xl text-primary tracking-tight">
-              FreelancerHup
+              Hustlix
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               The premium destination for connecting top-tier talent with ambitious companies worldwide.
@@ -46,7 +46,7 @@ export function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground flex flex-col md:flex-row items-center justify-between">
-          <p>© {new Date().getFullYear()} FreelancerHup. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Hustlix. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             {/* Social Icons Placeholder */}
             <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors cursor-pointer">X</div>

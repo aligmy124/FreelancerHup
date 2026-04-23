@@ -5,8 +5,7 @@ import { useCreateProject } from "@/features/hooks/useCreateProject"
 import MilestonesField from "./MilestonesField"
 
 export default function ProjectForm() {
-  const { handleCreate, loading, error } = useCreateProject()
-
+  const { handleCreate, loading, error } = useCreateProject();
   const [form, setForm] = useState({
     title: "",
     description: "",

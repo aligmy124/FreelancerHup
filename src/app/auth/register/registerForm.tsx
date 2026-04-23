@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
+import { 
   Card,
   CardContent,
   CardDescription,
@@ -67,7 +67,7 @@ export default function RegisterForm() {
       
       toast.success("Account created successfully!", {
         id: loadingToast,
-        description: `Welcome to FreelancerHup! Redirecting you...`,
+        description: `Welcome to Hustlix! Redirecting you...`,
         duration: 3000,
       });
       

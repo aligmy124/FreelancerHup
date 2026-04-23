@@ -249,12 +249,12 @@ export default function Home() {
       {/* How it works */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-16 text-center">How FreelancerHup Works</h2>
+          <h2 className="text-3xl font-bold mb-16 text-center">How Hustlix Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div>
               <div className="w-16 h-16 mx-auto bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mb-6">1</div>
               <h3 className="text-xl font-bold mb-3">Post a Job</h3>
-              <p className="text-muted-foreground">Tell us about your project. FreelancerHup connects you with top talent around the world.</p>
+              <p className="text-muted-foreground">Tell us about your project. Hustlix connects you with top talent around the world.</p>
             </div>
             <div>
               <div className="w-16 h-16 mx-auto bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mb-6">2</div>
@@ -277,7 +277,7 @@ export default function Home() {
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-4">Ready to get started?</h2>
               <p className="text-muted-foreground mb-8">
-                Join thousands of professionals already using FreelancerHup to find work or hire talent.
+                Join thousands of professionals already using Hustlix to find work or hire talent.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/auth/register">
@@ -338,7 +338,7 @@ export default function Home() {
               {intendedAction?.type === 'hire' ? 'Hire Talent' : 'Find Work'}
             </DialogTitle>
             <DialogDescription className="text-center">
-              Join FreelancerHup to connect with professionals worldwide
+              Join Hustlix to connect with professionals worldwide
             </DialogDescription>
           </DialogHeader>
           

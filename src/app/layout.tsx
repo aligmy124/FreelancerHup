@@ -8,7 +8,7 @@ import { AuthProvider } from '@/contexts/AuthContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FreelancerHup | Premium Freelance Talent',
+  title: 'Hustlix | Premium Freelance Talent',
   description: 'Connect with top-tier freelance talent for your next big project.',
 };
 

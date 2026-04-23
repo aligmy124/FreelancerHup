@@ -14,7 +14,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-
+import Image from 'next/image';
+import logo from "@/assets/images/Hustlix.png";
 export function Navbar() {
   const { isAuthenticated, user, userRole, logout } = useAuth();
 
@@ -34,12 +35,12 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/" className="font-bold text-2xl text-primary tracking-tight">
-            FreelancerHup
+            <Image src={logo} width={120} height={120} alt={"logo"}/>
           </Link>
           <div className="hidden md:flex items-center space-x-6 text-sm font-medium text-muted-foreground">
             <Link href="/freelancers" className="hover:text-foreground transition-colors">Find Talent</Link>
             <Link href="/projects" className="hover:text-foreground transition-colors">Find Work</Link>
-            <Link href="/why-us" className="hover:text-foreground transition-colors">Why FreelancerHup</Link>
+            <Link href="/why-us" className="hover:text-foreground transition-colors">Why Hustlix</Link>
             <Link href="/pricing" className="hover:text-foreground transition-colors">Pricing</Link>
           </div>
         </div>
